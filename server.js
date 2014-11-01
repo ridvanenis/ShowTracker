@@ -106,8 +106,6 @@ app.get('/api/shows', function(req, res, next) {
         query.where({ genre: req.query.genre });
     } else if (req.query.alphabet) {
         query.where({ name: new RegExp('^' + '[' + req.query.alphabet + ']', 'i') });
-    } else {
-        query.limit(12);
     }
     query.exec(function(err, shows) {
         if (err) return next(err);
