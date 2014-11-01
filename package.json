@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node .server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "agenda": "^0.6.24",
