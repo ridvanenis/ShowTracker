@@ -28,7 +28,10 @@ var showSchema = new Schema({
         episodeNumber: Number,
         episodeName: String,
         firstAired: Date,
-        overview: String
+        overview: String,
+        watchlist: [{
+            type: mongoose.Schema.Types.ObjectId, ref:'User'
+        }]
     }]
 });
 

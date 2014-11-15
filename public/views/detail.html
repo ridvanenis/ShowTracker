@@ -57,6 +57,7 @@
                     {{episode.firstAired | date: 'short'}}
                 </p>
                 <p>{{episode.overview}}</p>
+                <input type="checkbox" ng-model="episode" ng-click="watchedthis(episode)" ng-controller="WatchedCtrl">
             </div>
         </div>
     </div>

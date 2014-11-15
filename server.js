@@ -222,6 +222,21 @@ app.post('/api/subscribe', ensureAuthenticated, function(req, res, next) {
     });
 });
 
+app.post('/api/watchepisode', ensureAuthenticated, function(req, res, next) {
+    Show.findById(req.body.showId, function(err, show) {
+        if (err) return next(err);
+        show.episodes.findById(req.body.episodeId, function (err, episode) {
+            if(err) return next(err);
+            episode.watchlist.push(req.user.id);
+            show.episodes.update(episode);
+            show.save(function (err) {
+                if(err) return next(err);
+                res.send(200);
+            })
+        });
+    });
+});
+
 app.post('/api/unsubscribe', ensureAuthenticated, function(req, res, next) {
     Show.findById(req.body.showId, function(err, show) {
         if (err) return next(err);
@@ -230,6 +245,21 @@ app.post('/api/unsubscribe', ensureAuthenticated, function(req, res, next) {
         show.save(function(err) {
             if (err) return next(err);
             res.send(200);
+        });
+    });
+});
+
+app.post('/api/notwatchepisode', ensureAuthenticated, function(req, res, next) {
+    Show.findById(req.body.showId, function(err, show) {
+        if (err) return next(err);
+        show.episodes.findById(req.body.episodeId, function (err, episode) {
+            var index = episode.watchlist.indexOf(req.user.id);
+            episode.watchlist.splice(index,1);
+            show.episodes.update(episode);
+            show.save(function (err) {
+                if(err) return next(err);
+                res.send(200);
+            })
         });
     });
 });
