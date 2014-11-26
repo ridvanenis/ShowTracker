@@ -7,6 +7,19 @@
 var mongoose = require('mongoose');
 var Schema =  mongoose.Schema;
 
+var episode = new Schema({
+    season: Number,
+    episodeNumber: Number,
+    episodeName: String,
+    firstAired: Date,
+    overview: String,
+    watchlist: [{
+        type: mongoose.Schema.Types.ObjectId, ref:'User'
+    }]
+});
+
+mongoose.model('episode', episode);
+
 var showSchema = new Schema({
     _id: Number,
     name: String,
@@ -23,17 +36,9 @@ var showSchema = new Schema({
     subscribers: [{
         type: mongoose.Schema.Types.ObjectId, ref: 'User'
     }],
-    episodes: [{
-        season: Number,
-        episodeNumber: Number,
-        episodeName: String,
-        firstAired: Date,
-        overview: String,
-        watchlist: [{
-            type: mongoose.Schema.Types.ObjectId, ref:'User'
-        }]
-    }]
+    episodes: [episode]
 });
+
 
 var ShowModel = mongoose.model('Show',showSchema);
 exports.Show = ShowModel;

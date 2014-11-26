@@ -47,8 +47,8 @@
         <div class="panel-heading">
             <span class="glyphicon glyphicon-play"></span> Episodes
         </div>
-        <div class="panel-body">
-            <div class="episode" ng-repeat="episode in show.episodes">
+        <div  class="panel-body" >
+            <div class="episode" ng-repeat="episode in show.episodes"  >
                 <h4>{{episode.episodeName}}
                     <small>Season {{episode.season}}, Episode {{episode.episodeNumber}}</small>
                 </h4>
@@ -57,7 +57,10 @@
                     {{episode.firstAired | date: 'short'}}
                 </p>
                 <p>{{episode.overview}}</p>
-                <input type="checkbox" ng-model="episode" ng-click="watchedthis(episode)" ng-controller="WatchedCtrl">
+                <div ng-controller="WatchedCtrl" ng-style="mystyle" ng-if="currentUser">
+                    <input type="checkbox" value="{{episode}}" ng-click="watchedthis(episode)" ng-checked="iswatched(episode)" >
+                    <span>I watched this episode.</span>
+                </div>
             </div>
         </div>
     </div>

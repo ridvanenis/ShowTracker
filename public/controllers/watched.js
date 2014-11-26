@@ -5,9 +5,18 @@ angular.module('MyApp')
     .controller('WatchedCtrl', ['$scope', '$rootScope', '$routeParams', 'Watched',
         function($scope, $rootScope, $routeParams, Watched) {
 
+            $scope.iswatched = function(episode){
+                if(episode.watchlist.indexOf($rootScope.currentUser._id) !== -1){
+                    $scope.mystyle = {'background-color' : '#a8ddb5'};
+                    return true;
+                }else{
+                    return false;
+                }
+            }
+
             $scope.watchedthis = function (episode) {
-                var index = episode.watchlist.indexOf($rootScope.currentUser._id);
-                if(index){
+                var index = episode.watchlist.indexOf($rootScope.currentUser.id);
+                if(index > -1){
                     Watched.notwatchepisode($scope.show,episode).success(function () {
                         episode.watchlist.splice(index,1);
                     });
