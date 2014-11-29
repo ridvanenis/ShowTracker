@@ -10,12 +10,13 @@ angular.module('MyApp')
                     $scope.mystyle = {'background-color' : '#a8ddb5'};
                     return true;
                 }else{
+                    $scope.mystyle = {};
                     return false;
                 }
             }
 
             $scope.watchedthis = function (episode) {
-                var index = episode.watchlist.indexOf($rootScope.currentUser.id);
+                var index = episode.watchlist.indexOf($rootScope.currentUser._id);
                 if(index > -1){
                     Watched.notwatchepisode($scope.show,episode).success(function () {
                         episode.watchlist.splice(index,1);

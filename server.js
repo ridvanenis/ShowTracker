@@ -236,7 +236,7 @@ app.post('/api/watchepisode', ensureAuthenticated, function(req, res, next) {
         show.save(function (err) {
             if(err) return next(err);
             res.send(200);
-        })
+        });
 
     });
 });
@@ -256,14 +256,18 @@ app.post('/api/unsubscribe', ensureAuthenticated, function(req, res, next) {
 app.post('/api/notwatchepisode', ensureAuthenticated, function(req, res, next) {
     Show.findById(req.body.showId, function(err, show) {
         if (err) return next(err);
-        show.episodes.findById(req.body.episodeId, function (err, episode) {
-            var index = episode.watchlist.indexOf(req.user.id);
-            episode.watchlist.splice(index,1);
-            show.episodes.update(episode);
-            show.save(function (err) {
-                if(err) return next(err);
-                res.send(200);
-            })
+        var index = -1;
+        for(var i = 0; i < show.episodes.length; i++ ){
+            if(show.episodes[i]._id == req.body.episodeId){
+                index = i;
+            }
+        }
+
+        var windex = show.episodes[index].watchlist.indexOf(req.user.id);
+        show.episodes[index].watchlist.splice(windex,1);
+        show.save(function (err) {
+            if(err) return next(err);
+            res.send(200);
         });
     });
 });
