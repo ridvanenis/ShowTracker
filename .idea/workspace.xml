@@ -2,105 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e75f3d10-53a2-48eb-9937-45276797845b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/ngActivityIndicator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/ngActivityIndicator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/ngActivityIndicator.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/ngActivityIndicator.min.js" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\benchmarks\clone.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\af.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\ar-ma.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\ar-sa.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\ar.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\az.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\be.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\bg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\bn.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\bo.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\br.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\bs.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\ca.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\cs.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\cv.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\cy.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\da.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\de-at.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\de.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\el.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\en-au.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\en-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\en-gb.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\eo.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\es.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\et.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\eu.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\fa.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\fi.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\fo.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\fr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\gl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\he.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\hi.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\hr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\hu.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\hy-am.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\id.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\is.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\it.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\ja.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\ka.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\km.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\ko.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\lb.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\lt.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\lv.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\mk.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\ml.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\mr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\ms-my.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\my.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\nb.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\ne.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\nl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\nn.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\pl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\pt.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\ro.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\ru.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\sk.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\sl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\sq.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\sr-cyrl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\sr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\sv.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\ta.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\th.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\tl-ph.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\tr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\tzm-latn.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\tzm.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\uk.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\uz.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\vi.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\locale\zh-tw.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\min\locales.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\min\locales.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\min\moment-with-locales.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\min\moment-with-locales.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\min\moment.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\bower_components\moment\moment.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Rıdvan\WebstormProjects\ShowTracker\public\services\mystylechange.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app.js" afterPath="$PROJECT_DIR$/public/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/detail.html" afterPath="$PROJECT_DIR$/public/views/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/controllers/watched.js" afterPath="$PROJECT_DIR$/public/controllers/watched.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ShowTracker.iws" />
@@ -135,11 +38,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="watched.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="watched.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/controllers/watched.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6296296" vertical-offset="0" max-vertical-offset="663">
-              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+              <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
+              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/controllers/add.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/services/auth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1241">
+              <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="watchepisode.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/services/watchepisode.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+              <caret line="10" column="55" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="55" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -152,16 +97,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3961">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ngActivityIndicator.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/ngActivityIndicator.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3993" max-vertical-offset="4488">
-              <caret line="195" column="1" selection-start-line="195" selection-start-column="1" selection-end-line="195" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -197,16 +132,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5827" max-vertical-offset="80138">
-              <caret line="353" column="0" selection-start-line="353" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -220,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.scss" />
         <option value="$PROJECT_DIR$/public/stylesheets/ngActivityIndicator.css" />
         <option value="$PROJECT_DIR$/bower_components/ngActivityIndicator/css/ngActivityIndicator.css" />
@@ -228,6 +152,8 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/app.js" />
         <option value="$PROJECT_DIR$/public/controllers/watched.js" />
+        <option value="$PROJECT_DIR$/public/controllers/add.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -301,6 +227,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShowTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShowTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShowTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShowTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShowTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShowTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -436,11 +416,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31451613" sideWeight="0.49921876" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31451613" sideWeight="0.49921876" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328341" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -666,13 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/controllers/add.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09837963" vertical-offset="0" max-vertical-offset="864">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/views/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5883055" vertical-offset="0" max-vertical-offset="838">
@@ -690,13 +663,6 @@
     <entry file="file://$PROJECT_DIR$/public/services/show.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/services/mystylechange.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
@@ -724,13 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/services/auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1241">
-          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4131" max-vertical-offset="5491">
@@ -742,23 +701,6 @@
     <entry file="file://$PROJECT_DIR$/public/favicon.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/services/watchepisode.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/vendor/ngActivityIndicator.js">
@@ -832,13 +774,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/controllers/watched.js">
+    <entry file="file://$PROJECT_DIR$/public/controllers/add.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6296296" vertical-offset="0" max-vertical-offset="663">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/services/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1241">
+          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/services/watchepisode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="55" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/controllers/watched.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
