@@ -1,5 +1,6 @@
 <div class="container">
     <div class="panel panel-default">
+        <div ng-activity-indicator="DottedDark" class="text-center" ></div>
         <div class="panel-body">
             <div class="media">
                 <div class="pull-left">
@@ -58,6 +59,7 @@
                 </p>
                 <p>{{episode.overview}}</p>
                 <div ng-controller="WatchedCtrl" ng-style="mystyle" ng-if="currentUser">
+
                     <input type="checkbox" value="{{episode}}" ng-click="watchedthis(episode)" ng-checked="iswatched(episode)" >
                     <span>I watched this episode.</span>
                 </div>

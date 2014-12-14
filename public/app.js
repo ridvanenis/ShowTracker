@@ -1,5 +1,7 @@
-angular.module('MyApp', ['ngCookies', 'ngResource', 'ngMessages', 'ngRoute', 'mgcrea.ngStrap'])
-    .config(['$locationProvider', '$routeProvider' , function($locationProvider, $routeProvider) {
+angular.module('MyApp', ['ngCookies', 'ngResource', 'ngMessages', 'ngRoute', 'mgcrea.ngStrap','ngActivityIndicator', 'ngProgress'])
+    .config(['$locationProvider', '$routeProvider' , '$activityIndicatorProvider',
+        function($locationProvider, $routeProvider, $activityIndicatorProvider) {
+            $activityIndicatorProvider.setActivityIndicatorStyle('SpinnerDark');
         $locationProvider.html5Mode(true);
 
         $routeProvider
